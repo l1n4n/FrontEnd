@@ -2,6 +2,9 @@
 ## Penn SD4x
 ### W1
 - CSS Notes
+  - [It's all about boxes](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics#Boxes_boxes_it's_all_about_boxes)
+    - Read [this](https://developer.mozilla.org/en-US/docs/Learn/CSS)
+    - Do [this](https://codepen.io/l1n4n/pen/BxaaKR)
   - Element Selector
     - e.g. h1 { color:red; } <br>
         All h1 elements
@@ -22,3 +25,7 @@
         - iterates and returns a list of values
         - values of iterable objects
   - [isNaN()](https://www.w3schools.com/jsref/jsref_isnan.asp); [Number()](https://www.w3schools.com/jsref/jsref_number.asp)
+- jQuery
+  - core syntax<br>
+  `$(selector).action(function)`
+  - [selector](https://www.w3schools.com/jquery/jquery_selectors.asp)
