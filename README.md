@@ -14,7 +14,7 @@
   - id selector
     - e.g. #section1 { ... } <br>
         Unique element with ID “section1”
-- [**HW1 calendar**](https://codepen.io/l1n4n/pen/KRwovy/)
+- [MY WORK: **HW1 calendar**](https://codepen.io/l1n4n/pen/KRwovy/)
 ### W2
 - js basics
   - for in [vs](https://www.typescriptlang.org/docs/handbook/iterators-and-generators.html) for of
@@ -31,7 +31,7 @@
   - core syntax<br>
   `$(selector).action(function)`
   - [selector](https://www.w3schools.com/jquery/jquery_selectors.asp) 
-- [**HW3 calculator**](https://codepen.io/l1n4n/pen/NMGzao)
+- [MY WORK: **HW3 calculator**](https://codepen.io/l1n4n/pen/NMGzao)
 ## [IT](http://www.jnshu.com/)
 - [task 1](http://www.jnshu.com/task/1/33/detail//#0)
   - [Two solutions](https://codepen.io/l1n4n/pen/BxaaKR)
