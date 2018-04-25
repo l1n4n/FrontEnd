@@ -104,7 +104,32 @@
   );
   ```
 - [MY WORK: **HW4 fontchanger**](https://codepen.io/l1n4n/pen/aGdPwQ?editors=1010)
-## [IT](http://www.jnshu.com/)
+- [AJAX](https://www.w3schools.com/jquery/jquery_ajax_intro.asp)
+  - [jQuery AJAX Methods](https://www.w3schools.com/jquery/jquery_ref_ajax.asp)
+      - `$(selector).getJSON(url,data,success(data,status,xhr))` [See](https://www.w3schools.com/jquery/ajax_getjson.asp)
+      - `$.ajax({name:value, name:value, ... })`[All jQuery AJAX methods use the ajax() method. This method is mostly used for requests where the other methods cannot be used.](https://www.w3schools.com/jquery/ajax_ajax.asp)
+- [NodeJs](https://nodejs.org/api/synopsis.html)
+   - [LXF's tutorial](https://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000/001434501245426ad4b91f2b880464ba876a8e3043fc8ef000)
+- [Creat a react app](https://github.com/facebook/create-react-app/blob/master/README.md#creating-an-app)
+    ```
+    npx create-react-app my-app
+    cd my-app
+    npm start
+    ```
+    - Error "Module not found: Can't resolve '../components/" [Solution](https://github.com/facebook/create-react-app/issues/3041)<br>
+    ```
+    rm -rf node_modules
+    npm i
+    ```
+    - [import vs require](http://voidcanvas.com/import-vs-require/)
+    - delete node-modules in windows
+      - install remove-node-modules
+      - use nodejs cmd
+        1. cd project root
+        2. `remove-node-modules`      
+  - [Testing](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#running-tests) with chai && enzyme
+## [IT](http://www.jnshu.com/)  
 - [task 1](http://www.jnshu.com/task/1/33/detail//#0)
   - [Two solutions](https://codepen.io/l1n4n/pen/BxaaKR)
 - [task 2](http://www.jnshu.com/task/1/34/detail//#0)
+
