@@ -34,6 +34,7 @@
 - [MY WORK: **HW3 calculator**](https://codepen.io/l1n4n/pen/NMGzao)
 ### W3
 - [React](https://reactjs.org/)
+  - //TODO [How to learn react](https://www.lullabot.com/articles/how-to-learn-react)
   - An **element** describes what you want to see on the screen (like a single frame in a movie)
   - To **render** a React element into a root DOM node, pass both to ReactDOM.render()<br>
   ```
