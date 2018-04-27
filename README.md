@@ -140,6 +140,7 @@
         2. `remove-node-modules`      
   - [Testing](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#running-tests) with chai && enzyme
 - [**MY HW5 List app**](https://github.com/l1n4n/FrontEnd/tree/master/HW5)
+#### ES6
 ## [IT](http://www.jnshu.com/)  
 - [task 1](http://www.jnshu.com/task/1/33/detail//#0)
   - [Two solutions](https://codepen.io/l1n4n/pen/BxaaKR)
