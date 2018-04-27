@@ -16,7 +16,7 @@
         Unique element with ID “section1”
 - [MY WORK: **HW1 calendar**](https://codepen.io/l1n4n/pen/KRwovy/)
 ### W2
-- js basics
+#### js basics
   - for in [vs](https://www.typescriptlang.org/docs/handbook/iterators-and-generators.html) for of
     - for in: 
         - iterates and list out all the keys.
@@ -27,14 +27,14 @@
   - [isNaN()](https://www.w3schools.com/jsref/jsref_isnan.asp); [Number()](https://www.w3schools.com/jsref/jsref_number.asp)
   - Array methods
     - [splice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
-- jQuery
+#### jQuery
   - core syntax<br>
   `$(selector).action(function)`
   - [selector](https://www.w3schools.com/jquery/jquery_selectors.asp) 
 - [MY WORK: **HW3 calculator**](https://codepen.io/l1n4n/pen/NMGzao)
 ### W3
-- [React](https://reactjs.org/)<br>
-  - Tutorials //TODO
+#### [React](https://reactjs.org/)
+- Tutorials //TODO
     - [How to learn react](https://www.lullabot.com/articles/how-to-learn-react)
     - [Pure w/o JSX](https://reactarmory.com/guides/learn-react-by-itself/react-basics)
       - JSX converts tags to Javascript
@@ -139,6 +139,7 @@
         1. cd project root
         2. `remove-node-modules`      
   - [Testing](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#running-tests) with chai && enzyme
+- [**MY HW5 List app**](https://github.com/l1n4n/FrontEnd/tree/master/HW5)
 ## [IT](http://www.jnshu.com/)  
 - [task 1](http://www.jnshu.com/task/1/33/detail//#0)
   - [Two solutions](https://codepen.io/l1n4n/pen/BxaaKR)
