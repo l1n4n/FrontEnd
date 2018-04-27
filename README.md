@@ -45,7 +45,7 @@
       - JavaScript events can be passed as props
       - A component can set its child element’s props. Child elements cannot directly change the values of their props.
         - child : anything between the > and />
-  - An **element** describes what you want to see on the screen (like a single frame in a movie)
+  - An **element** describes what you want to see on the screen (like a single frame in a movie)
   - To **render** a React element into a root DOM node, pass both to ReactDOM.render()<br>
   ```
   const element = <h1>Hello, world</h1>;
