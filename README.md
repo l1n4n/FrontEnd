@@ -34,8 +34,18 @@
 - [MY WORK: **HW3 calculator**](https://codepen.io/l1n4n/pen/NMGzao)
 ### W3
 - [React](https://reactjs.org/)
-  - //TODO [How to learn react](https://www.lullabot.com/articles/how-to-learn-react)
-  - An **element** describes what you want to see on the screen (like a single frame in a movie)
+  - Tutorials //TODO 
+    - [How to learn react](https://www.lullabot.com/articles/how-to-learn-react)
+    - [Pure w/o JSX](https://reactarmory.com/guides/learn-react-by-itself/react-basics)
+      - JSX converts tags to Javascript
+      - React Elements are just JavaScript Objects. Each object contains enough information to describe a single node in the DOM.
+      - props object are mostly the same as standard HTML attribute, except using camelCase naming
+      - In React, Components are just functions. These functions accept the props of an element, and return the HTML that should be rendered in their place as a React Element.
+      - a component can be passed whatever props you’d like – whether they be strings, numbers functions, or even other elements
+      - JavaScript events can be passed as props
+      - A component can set its child element’s props. Child elements cannot directly change the values of their props.
+        - child : anything between the > and />
+  - An **element** describes what you want to see on the screen (like a single frame in a movie)
   - To **render** a React element into a root DOM node, pass both to ReactDOM.render()<br>
   ```
   const element = <h1>Hello, world</h1>;
@@ -95,7 +105,7 @@
     
     render() {
       return (
-        <tag method-do-stuff-to-state-according-to-event /tag>
+        <tag event={method-do-stuff-to-state-according-to-event} /tag>
         );
     }
   }
