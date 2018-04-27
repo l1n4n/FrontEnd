@@ -33,10 +33,10 @@
   - [selector](https://www.w3schools.com/jquery/jquery_selectors.asp) 
 - [MY WORK: **HW3 calculator**](https://codepen.io/l1n4n/pen/NMGzao)
 ### W3
-- [React](https://reactjs.org/)
-  - Tutorials //TODO 
-    - [How to learn react](https://www.lullabot.com/articles/how-to-learn-react)
-    - [Pure w/o JSX](https://reactarmory.com/guides/learn-react-by-itself/react-basics)
+- [React](https://reactjs.org/)<br>
+  - Tutorials //TODO
+    - [How to learn react](https://www.lullabot.com/articles/how-to-learn-react)
+    - [Pure w/o JSX](https://reactarmory.com/guides/learn-react-by-itself/react-basics)
       - JSX converts tags to Javascript
       - React Elements are just JavaScript Objects. Each object contains enough information to describe a single node in the DOM.
       - props object are mostly the same as standard HTML attribute, except using camelCase naming
