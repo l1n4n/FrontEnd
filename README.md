@@ -146,7 +146,15 @@
 #### Node
 - [`npm init -y`](https://docs.npmjs.com/getting-started/using-a-package.json)
 - `npm install express --save`
-## [IT](http://www.jnshu.com/)  
+#### Express([framework for Node.js](https://expressjs.com/))
+- [req](https://www.tutorialspoint.com/nodejs/nodejs_request_object.htm) && [res](https://www.tutorialspoint.com/nodejs/nodejs_response_object.htm)
+- [EJS](http://ejs.co/) will execute any JavaScript that appears
+between <% and %> tags when generating the
+HTML page on the server
+#### [MangoDB](https://www.mongodb.com/) a No[SQL](https://sqlzoo.net/) database
+- online Service [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
+- [certification](https://university.mongodb.com/certification)
+## [IT](http://www.jnshu.com/)  
 - [task 1](http://www.jnshu.com/task/1/33/detail//#0)
   - [Two solutions](https://codepen.io/l1n4n/pen/BxaaKR)
 - [task 2](http://www.jnshu.com/task/1/34/detail//#0)
