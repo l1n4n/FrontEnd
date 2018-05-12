@@ -1,5 +1,4 @@
-# FrontEnd
-## Penn SD4x
+# Penn SD4x
 ### W1
 - CSS Notes
   - [It's all about boxes](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics#Boxes_boxes_it's_all_about_boxes)
@@ -154,8 +153,15 @@ HTML page on the server
 #### [MangoDB](https://www.mongodb.com/) a No[SQL](https://sqlzoo.net/) database
 - online Service [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
 - [certification](https://university.mongodb.com/certification)
-## [IT](http://www.jnshu.com/)  
+# [IT](http://www.jnshu.com/)  
 - [task 1](http://www.jnshu.com/task/1/33/detail//#0)
   - [Two solutions](https://codepen.io/l1n4n/pen/BxaaKR)
 - [task 2](http://www.jnshu.com/task/1/34/detail//#0)
+# BootCamp
+## HTML
+- Sublime shortcut
+  - html + tab => boilerplate
+  - ctrl + / => comment
+- [Doctype](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/Introduction_to_HTML5)
+- [html element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html)
 
