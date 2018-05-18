@@ -164,4 +164,4 @@ HTML page on the server
   - ctrl + / => comment
 - [Doctype](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/Introduction_to_HTML5)
 - [html element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html)
-
+- [30 CSS selectors](https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
