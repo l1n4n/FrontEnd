@@ -223,7 +223,7 @@ Name.find({}, function(err, names){
      }
  })
 ```
-## 7 RESTful routes
+## 7 RESTful routes [or see here](https://codepen.io/l1n4n/full/YvNKzy/)
 | Name        | Path           | HTTP Verb  | Purpose                 | Mongoose Method|
 | ----------- |----------------| -----------|-------------------------|----------------|
 | Index      | /dogs | GET |List all dogs|Dog.find()|
