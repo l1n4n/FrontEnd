@@ -166,6 +166,63 @@ HTML page on the server
 - [html element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html)
 - [30 CSS selectors](https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
 - [Specificity](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity)
+## MongoDB
+- MongoDB cannot be started as a service (with an error: mongod: unrecognized service ) but can be started manually with 
+`sudo mongod`
+- `mongo` to open mongo shell
+- ctrl + C to exit
+- `help`
+- `show dbs`
+- `use` to use an existing database or to creat a new one if not existing
+- `insert`
+-   - `db.insertGroupName.insert({key: value})`
+-   - `show collections` to see the inserted result
+- find
+    - `db.groupname.find()` to find all objects in the groupname
+    - `db.groupname.find({key: value})` to find the specific objects whose key is value
+- updata
+    - `db.groupname.update({key: value}, overwrittenData)` to replace {key:value} with overwrittenData
+    - `db.groupname.update({key: value}, {$set: {toadd/tochangeKey: new value})` add or change the object with {key: value}
+- remove
+    - `db.groupname.remove({key: value})` remove the objects whose key is value
+    - [for more](https://www.tutorialspoint.com/mongodb/mongodb_delete_document.htm)
+    - `db.groupname.drop()` delete all data
+
+## Mongoose
+- SchemaSetup
+```
+var schemaName = new mongoose.Schema({
+    key: value,
+})
+```
+- make a model
+```
+var Name = mongoose.model("Name", schemaName);
+```
+- add to database
+```
+Name.create({
+    key: value,
+    ...
+}, function(err, name){
+    if(err){
+        console.log(err);
+    }else{
+        console.log(name);
+    }
+});
+```
+- retriving data
+```
+Name.find({}, function(err, names){
+     if(err){
+         console.log("Error")
+     }else{
+         console.log("All the data...");
+         console.log(names);
+     }
+ })
+```
 ## 7 RESTful routes
 | Name        | Path           | HTTP Verb  | Purpose                 | Mongoose Method|
 | ----------- |----------------| -----------|-------------------------|----------------|
