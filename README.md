@@ -166,3 +166,14 @@ HTML page on the server
 - [html element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html)
 - [30 CSS selectors](https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
 - [Specificity](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity)
+## 7 RESTful routes
+| Name        | Path           | HTTP Verb  | Purpose                 | Mongoose Method|
+| ----------- |----------------| -----------|-------------------------|----------------|
+| Index      | /dogs | GET |List all dogs|Dog.find()|
+| New      | /dogs/new     |  GET |Show new dog form| N/A|
+| Create | /dogs      |    POST |Create a new dog, then redirect somewhere|Dog.create()|
+|Show|/dogs/:id|GET|Show info about one specific dog|Dog.findById()|
+|Edit|/dogs/:id/edit	|GET|Show edit form for one dog|Dog.findById()|
+|Update|/dogs/:id|PUT|Update particular dog, then redirect somewhere|Dog.findByIdAndUpdate()|
+|Destroy|/dogs/:id|DELETE|Delete a particular dog, then redirect somewhere|Dog.findByIdAndRemove()|
+
